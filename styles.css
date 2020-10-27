@@ -203,14 +203,14 @@ a{
     margin-top: 10%;
     margin-bottom: 14%;
     height: 375px;
-    width: 450px;
+    width: 30%;
 }
 .infographic1{
     border-radius: 40px;
     margin-left: 5%;
     margin-top: 0%;
-    height: 450px;
-    width: 550px;
+    height: 45%;
+    width: 25%;
 }
 
 .infographic2{
@@ -218,8 +218,8 @@ a{
     margin-left: 5%;
     margin-top: 0%;
     margin-bottom: 3%;
-    height: 450px;
-    width: 350px;
+    height: 45%;
+    width: 20%;
 }
 h2 {color: white;}
 
@@ -302,6 +302,7 @@ h2 {color: white;}
         height: 5vh;
         
      }
+
    }
 
 
