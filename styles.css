@@ -1,0 +1,310 @@
+div { 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+}
+
+
+body{
+    background-color: #065446;
+    text-align: center;
+    color:black;
+    scroll-behavior: smooth;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.logo{
+    height: 75px;
+    border-radius: 100%;
+    width: 110px;
+    margin-bottom: 20px;
+}
+.lk {
+    padding-top: 15px;
+}
+
+.nav{
+    height: 50px;
+    
+    
+}
+.bigCard{
+    min-width: 30%;
+    min-width: 671px;
+}
+.card{
+
+background-color:  #d1d5db;
+margin-left: auto;
+margin-right: 40px;
+margin-top: 8vh;
+border-radius:25px;
+transition: transform .2s;
+
+max-height: 329px;
+
+box-sizing: border-box;
+display: inline-block;
+box-shadow: 6px 9px 30px 2px rgba(0,0,0,0.49);
+height: 276px;
+}
+
+
+
+.card:hover{
+    animation-name: hoover;
+    animation-duration: 2s;
+    transform: scale(1.1);
+    box-shadow: 6px 9px 30px 2px rgba(0,0,0,0.49); 
+}
+
+.btn{
+    margin-top: 4vh;
+}
+
+@keyframes hoover {
+
+0% {        }
+100% {      box-shadow: 6px 9px 30px 2px rgba(0,0,0,0.49);     }
+
+}
+
+p{
+    position: relative;
+    font-family: 'Ubuntu', sans-serif;
+    
+
+    
+}
+
+.photo{
+    height: 275px;
+    width: 230px;
+    border-radius: 25px;
+}
+
+
+.indexx{
+    padding-left: 25px;
+}
+
+
+
+a{
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
+
+}
+
+.bg1{
+
+   display: inline-block;
+    height: 300px;
+    width: 200px;
+}
+.wrapper{
+    margin-left: auto;
+    margin-right: auto;
+}
+.aziz{
+    border-radius: 25px;
+  width: 350px;
+    margin-top: 5%; 
+}
+
+.Saud{
+    width: 250px;
+    margin-top: 3%;
+    border-radius: 25px;
+}
+
+.par{
+    font-size: 1.4rem;
+    overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 2; /* number of lines to show */
+   -webkit-box-orient: vertical;
+   padding-top: 50px;
+}
+
+.container-fluid{
+    
+    
+    
+    
+    height: 560px;
+}
+.title{
+    padding-top: 100px;
+}
+.titleH2{
+    margin-top: 5%;
+}
+.header{
+    width: 100%;
+    height: 400px;
+    background-color: #d1d5db;
+    display: inline-block;
+    border-radius: 0 0 95px 95px; 
+    border-style: solid;
+    border-width: 3px;
+    border-color:black;
+}
+
+.name{
+    padding-top: 10px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.card-text, .card-header, .card-title {
+    color: black;
+    text-align: center;
+}
+
+.achi{
+    text-align: center;
+    color: white;
+    margin-top: 5vh;
+}
+.view{
+    color: white;
+}
+
+.slider{
+    z-index: -1;
+    
+    height: 950px;
+}
+
+.sliderIMG{
+    height: 950px;
+   
+}
+.sliderIMG1{
+    height: 950px;
+}
+.carousel-inner{
+    width: 100%;
+    height: 950px;
+
+}
+
+.info{
+    width: 100%;
+    height: 1000px;
+    
+    
+}
+.infographic{
+    border-radius: 40px;
+    margin-left: 1%;
+    margin-top: 10%;
+    margin-bottom: 14%;
+    height: 375px;
+    width: 450px;
+}
+.infographic1{
+    border-radius: 40px;
+    margin-left: 5%;
+    margin-top: 0%;
+    height: 450px;
+    width: 550px;
+}
+
+.infographic2{
+    border-radius: 40px;
+    margin-left: 5%;
+    margin-top: 0%;
+    margin-bottom: 3%;
+    height: 450px;
+    width: 350px;
+}
+h2 {color: white;}
+
+.slider-p{
+    color: white;
+    font-weight: 1000;
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+}
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 6%;
+  }
+  .slider:hover .sliderIMG {
+    opacity: 0.3;
+  }
+  
+  .slider:hover .middle {
+    opacity: 1;
+  }
+
+@media only screen and (max-width: 750px) {
+    .bigCard {
+        max-width: 350px;
+        margin-bottom: 10%;
+        height: 200px;
+        margin-right:auto ;
+    }
+    .photo{
+        width: 130px;
+        height: 199px;
+        float: left;
+    }
+    body{
+     font-size: 0.8rem;
+    }
+    
+    .name{font-size: 1.5rem; }
+    
+    .col-md-4{
+        height: 0;
+    }
+   
+    h3{
+        font-size: 0.8rem;
+    }
+    .aziz{
+        width: 150px;
+    }
+    .Saud{
+        width: 100px;
+    }
+    .smallcard{
+        width: 12rem;
+    }
+    .container-fluid{
+        padding: 0;
+        margin-left: 25px;
+    }
+    .header{
+        height: 275px;
+    }
+    .indexx{
+        font-size: 0.72rem;
+        padding-left: 125px;
+    }
+    a{
+        padding-bottom: 20px;
+    }
+    .btn {
+        margin-top: 2vh;
+        margin-left: 15vh;
+        height: 5vh;
+        
+     }
+   }
+
+
+
+  /* box-shadow: 3px 14px 125px 12px rgba(0,0,0,0.87);
+  box-shadow: 6px 9px 30px 2px rgba(0,0,0,0.49); */
